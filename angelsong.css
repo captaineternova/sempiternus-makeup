@@ -58,8 +58,8 @@ color: var(--color) !important;
 #yas strong {color:var(--accau2) !important} 
 #yas i {color:var(--accau1) !important} 
 .yoonie strong, .celebridades .poste8-tx strong {color:var(--accau1) !important;} 
-.poste8 .yoonie u {color:var(--rin)!important;font-size: 1rem} 
-.poste8 .yoonie strike, #p69553 .poste8 font strong {color:var(--jun)!important;font-size: 1rem} 
+.poste8 .yoonie u {color:var(--rin)!important;font-size: .9rem} 
+.poste8 .yoonie strike, #p69553 .poste8 font strong {color:var(--jun)!important;font-size: .9rem} 
 
 
 .adornofinal {width: 400px;display: flex;margin: 25px 35px 0px;} 

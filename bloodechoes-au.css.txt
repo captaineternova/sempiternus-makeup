@@ -1,0 +1,225 @@
+/*EDICIÓN PRIMER POST*/ 
+#p52484 .semp-r-content { 
+width:94em; 
+} 
+
+#p52484 .semp-r-avatar { 
+display: none; 
+} 
+
+#p52484 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/v843M7yd/image.png)} 
+
+#p52484 .semp-r-c-t-datos.icon-grupo { 
+display: none; 
+} 
+
+#p52484 strong:first-of-type { 
+color: var(--accau1); 
+} 
+
+.semp-r-c-t-contacto { 
+display: none; 
+} 
+
+.bloodechoes div {break-inside: avoid;} 
+.signature_div {visibility: hidden;height: 0px;} 
+
+#p52484 .post6-txt {height: 42em;overflow: none;} 
+
+.post6-txt i {font-style:italic !important;} 
+
+.post6 div::-webkit-scrollbar {width:0px !important;} 
+#hyn strong {color:#7c3535;} 
+.content.clearfix div strong i {color: var(--accau1);} 
+
+eternova sprd:before {content:"—˖⁺‧₊☽◯☾₊‧⁺˖—" !important;color: var(--accau1) !important;}
+
+/*EDICIÓN AMBIENTAL*/ 
+
+body { 
+--accau1:#571414; 
+--accau2:#333; 
+--accau3:var(--color); 
+--accau4:var(--cicon); 
+--grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
+--grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
+} 
+
+a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
+--acc-1: var(--accau1); 
+} 
+
+.semnav-info.icon-grupo>i:before { 
+color: var(--accau3) !important; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b, .sem-i-d>div:nth-of-type(2)>b, .sem-i-d>div:nth-of-type(2)>span { 
+visibility: hidden; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b:before, .sem-i-d>div:nth-of-type(2)>b:before, .sem-i-d>div:nth-of-type(2)>span:before { 
+visibility: visible; 
+text-align: right; 
+display: block; 
+margin-bottom: -15px; 
+} 
+
+.sem-i-anuncios>div { 
+background: var(--accau1) !important; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b:before {content:"Gangneung, Corea del Sur";} 
+.sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
+.sem-i-d>div:nth-of-type(2)>span:before {content:"Siglo XIX & Siglo XXI";} 
+
+.sem-i-d>div:nth-of-type(2)>i:before { 
+content: "\f252"; 
+font-family: 'Font Awesome 5 Pro' !important; 
+} 
+
+.sem-header { 
+background-image: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png); 
+} 
+
+body, body.night { 
+margin-top: 0 !important; 
+background: url(https://i.postimg.cc/L8S5bLbM/AUBloodFondo.png), var(--bckg-1); 
+background-attachment: fixed; 
+background-position: center; 
+background-size: cover; 
+min-width: 1200px; 
+} 
+
+.semp-r-c-t-b { 
+background: var(--grd); 
+} 
+
+.semp-r-c-t-icon, .semp-r-c-t-usern { 
+background: var(--accau1) !important; 
+} 
+
+.semp-r-c-t-b>div:nth-child(1)>a, .semp-r-c-t-b>div:nth-child(2)>a, .rep-button, .rep-button:focus, .rep-button:active, dl.codebox dt, .icon-grupo>i:before { 
+color: var(--accau1) !important; 
+} 
+
+.rep-button i, .rep-button svg { 
+color: var(--accau1); 
+} 
+
+.sem-r-av-h { 
+display: none; 
+} 
+
+.semp-r-c-t-b { 
+--grd: linear-gradient(to left, var(--accau1), hsl(from var(--accau2) calc(h + var(--hsl)) s l)); 
+} 
+
+.semp-cajon-respuesta { 
+--grd: linear-gradient(to left, var(--accau1), hsl(from var(--accau2) calc(h + var(--hsl)) s l)); 
+border-bottom-color: var(--accau1); 
+--accent:var(-accau1)!important; 
+} 
+
+.semp-cajon-respuesta .icon-grupo>i:before { 
+content: "\f186" !important; 
+} 
+
+.semp-r-c-t-datos a, .semp-r-c-t-datos strong { 
+margin-top: 10px; 
+position: relative; 
+display: block; 
+color: var(--accau1); 
+} 
+
+.semp-r-c-t-n>div>b strong { 
+visibility: hidden; 
+} 
+
+.semp-r-c-t-datos a:before { 
+margin-left: -1px; 
+position: absolute; 
+font-style: italic; 
+} 
+
+.semp-r-c-t-datos a[href="/u851"]:before {content:"Hyndriel"} 
+.semp-r-c-t-datos a[href="/u835"]:before {content:"Richard Lawrence"} 
+
+.semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
+
+.semp-r-c-t-datos a:after { 
+text-transform: uppercase; 
+font-weight: 600; 
+letter-spacing: .5px; 
+text-shadow: var(--txsh) !important; 
+font-size: 13px !important; 
+color: var(--color) !important; 
+line-height: 28px; 
+} 
+
+.semp-r-c-t-n>div>span { 
+display: none; 
+} 
+
+.semp-r-c-t-datos a[href="/u851"]:after {content: "Vampiro";} 
+.semp-r-c-t-datos a[href="/u835"]:after {content: "Cazador";} 
+
+/*GRAFICOS*/ 
+/*Avatares*/ 
+av>a[href="/u835"] img { 
+content: url(https://i.postimg.cc/CLvKVdDc/0YTIe4x.png); 
+} 
+
+av>a[href="/u851"] img { 
+content: url(https://i.postimg.cc/5NdwwqVj/Hyumpiro.png); 
+} 
+
+/*Miniaturas*/ 
+.ciudadanos .semp-r-c-t-icon img { 
+content: url(https://i.postimg.cc/wBpLkxTg/Mini-RL.png); 
+} 
+
+.celebridades .semp-r-c-t-icon img { 
+content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png); 
+} 
+
+/*Flashbacks*/ 
+
+#p54937 av>a[href="/u835"] img,
+#p56034 av>a[href="/u835"] img,
+#p59312 av>a[href="/u835"] img,
+#p67855 av>a[href="/u835"] img,
+#p78289 av>a[href="/u835"] img,
+#p80797 av>a[href="/u835"] img,
+#p82311 av>a[href="/u835"] img { 
+content: url(https://i.postimg.cc/X72v0XdX/9Nn-W4KK.png); 
+} 
+
+#p54937 .semp-r-c-t-icon img,
+#p56034 .semp-r-c-t-icon img,
+#p59312 .semp-r-c-t-icon img,
+#p67855 .semp-r-c-t-icon img,
+#p78289 .semp-r-c-t-icon img,
+#p80797 .semp-r-c-t-icon img,
+#p82311 .semp-r-c-t-icon img { 
+content: url(https://i.postimg.cc/d0Yr9Qtq/Mini-BH.png); 
+} 
+
+#p54937 .semp-r-c-t-datos a[href="/u835"]:before,
+#p56034 .semp-r-c-t-datos a[href="/u835"]:before,
+#p59312 .semp-r-c-t-datos a[href="/u835"]:before,
+#p67855 .semp-r-c-t-datos a[href="/u835"]:before,
+#p78289 .semp-r-c-t-datos a[href="/u835"]:before,
+#p80797 .semp-r-c-t-datos a[href="/u835"]:before,
+#p82311 .semp-r-c-t-datos a[href="/u835"]:before { 
+content:"Min Baek Ho" 
+} 
+
+#p54937 .semp-r-c-t-datos a[href="/u835"]:after,
+#p56034 .semp-r-c-t-datos a[href="/u835"]:after,
+#p59312 .semp-r-c-t-datos a[href="/u835"]:after,
+#p67855 .semp-r-c-t-datos a[href="/u835"]:after,
+#p78289 .semp-r-c-t-datos a[href="/u835"]:after,
+#p80797 .semp-r-c-t-datos a[href="/u835"]:after,
+#p82311 .semp-r-c-t-datos a[href="/u835"]:after { 
+content: "Príncipe Heredero"; 
+} 

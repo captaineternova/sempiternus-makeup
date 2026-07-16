@@ -1,0 +1,326 @@
+.poste8 .yoonie u, .poste8 .yoonie strike { 
+border-image: none; 
+border-width: 0 !important; 
+text-transform: initial; 
+background: none !important; 
+letter-spacing: 0px; 
+line-height: 1.15rem; 
+font-size: 0.78rem; 
+padding: 0 !important; 
+font-weight: bolder !important; 
+font-family: 'Sofia Sans Semi Condensed'; 
+} 
+
+
+#gatoblanco:before { 
+background: url(https://i.postimg.cc/44vt71L3/AUYmiaw.png); 
+} 
+#gatomanchado:before { 
+background: url(https://i.postimg.cc/xjGHJPxc/AUYmiaw2.png); 
+} 
+
+#gatoblanco:before, #gatomanchado:before { 
+content: ""; 
+display: block; 
+width: 100px; 
+height: 100px; 
+position: relative; 
+border-radius: 100%; 
+margin: -54px auto 10px; 
+background-size: contain; 
+outline: 1px solid var(--accau6); 
+outline-offset: 5px; 
+border: 10px solid var(--accau6); 
+} 
+
+u.frasesilla { 
+font-size: 20px !important; 
+padding-bottom: 8px !important; 
+padding-top:5px !important; 
+margin-top: -15px !important; 
+} 
+
+.frasesilla { 
+margin: 0 auto !important; 
+display: block !important; 
+text-align: center !important; 
+} 
+
+i.frasesilla { 
+text-transform: uppercase !important; 
+font-style: normal !important; 
+font: 10px Arial !important; 
+letter-spacing: 2px !important; 
+margin-top: -10px !important; 
+color: var(--color) !important; 
+} 
+
+
+#yas strong {color:var(--accau2) !important} 
+#yas i {color:var(--accau1) !important} 
+.yoonie strong, .celebridades .poste8-tx strong {color:var(--accau1) !important;} 
+.poste8 .yoonie u {color:var(--rin)!important;font-size: 1rem} 
+.poste8 .yoonie strike, #p69553 .poste8 font strong {color:var(--jun)!important;font-size: 1rem} 
+
+
+.adornofinal {width: 400px;display: flex;margin: 25px 35px 0px;} 
+
+.adornofinal img { 
+border-radius: 100%; 
+width: 150px; 
+margin: 5px 5px; 
+height: 150px; 
+filter: grayscale(1); 
+outline: 1px solid var(--accau4); 
+outline-offset: 8px; 
+} 
+
+.adornofinal h1 {text-align: right;padding: 32px 15px;margin-top: 0px;font-size: 18px;} 
+.adornofinal h1:before {content: '\f10d';font-family: 'FontAwesome';position: absolute;font-size: 38px;margin-top: -15px;margin-left: -8px;line-height: 35px;} 
+
+.adornofinal h1 b, .adornofinal h1:before { 
+background: var(--grd-2); 
+background-clip: text !important; 
+color: transparent !important; 
+display: block; 
+} 
+
+.as .poste8 { 
+width: 480px; 
+margin: -132px 20px -72px 20px; 
+} 
+
+.as { 
+margin: 0 auto !important; 
+display: flex; 
+align-content: flex-start; 
+justify-content: center; 
+align-items: center; 
+flex-wrap: wrap; 
+gap: 0; 
+} 
+
+eternova sprd:before {content:"—⊹‧₊˚♪ 𝄞₊˚⊹—" !important;color: var(--accau1) !important;}
+
+/*EDICIÓN PRIMER POST*/ 
+#p67276 .semp-r-content { 
+width:94em; 
+} 
+
+#p67276 .semp-r-avatar { 
+display: none; 
+} 
+
+#p67276 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/yNHWZCM1/Mini-Angel.png)} 
+
+#p67276 .semp-r-c-t-datos.icon-grupo { 
+display: none; 
+} 
+
+#p67276 .semp-cajon-respuesta .icon-grupo>i:before { 
+content: "\f005" !important; 
+} 
+
+#p67276 .ornament { 
+display: block; 
+margin-left: 10px; 
+} 
+
+.semp-r-c-t-contacto { 
+display: none; 
+} 
+
+.signature_div {visibility: hidden;height: 0px;} 
+
+.content.clearfix div strong i {color: var(--accau1);} 
+
+
+/*EDICIONES ANTIGUAS*/ 
+
+
+.post7-titulo i {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;/* text-shadow: none;*/background: -webkit-linear-gradient(40deg, var(--acentob), var(--acento));} .post2-dts {width: 95%;display:none;} 
+.post2 p {width: 56%;font-size: var(--font);overflow: auto;height: 200px;} 
+
+p::-webkit-scrollbar {width:0px !important;} 
+
+
+.post2 {height: 468px;} 
+
+.post7-txt {margin-left:0px;} 
+.post7-datos {margin: 0 15px 15px 0px;} 
+.post7-texto strong {color: var(--acento) !important;} 
+
+.post7-titulo b, .post7-titulo i, .post7-titulo strong, .post7-titulo em { 
+color: var(--acento) !important; 
+} 
+
+/*EDICIÓN AMBIENTAL*/ 
+
+body { 
+--accau1:#B88A99; 
+--accau2:#6A93B5; 
+--accau3:var(--color); 
+--accau4:var(--cicon); 
+--accau5:var(--ctext); 
+--accau6:var(--bckg-2); 
+--grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
+--grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
+} 
+
+.semp-tablon, #wrap, .sem-i-d, a#fa_notifications { 
+--acc-1: var(--accau1); 
+} 
+
+
+.semnav-info.icon-grupo>i:before { 
+color: var(--accau5) !important; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b, .sem-i-d>div:nth-of-type(2)>b, .sem-i-d>div:nth-of-type(2)>span { 
+visibility: hidden; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b:before, .sem-i-d>div:nth-of-type(2)>b:before, .sem-i-d>div:nth-of-type(2)>span:before { 
+visibility: visible; 
+text-align: right; 
+display: block; 
+margin-bottom: -15px; 
+} 
+
+.sem-i-anuncios>div { 
+background: var(--accau1) !important; 
+} 
+
+.sem-i-d>div:nth-of-type(1)>b:before {content:"Asahikawa, Japón";} 
+.sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
+.sem-i-d>div:nth-of-type(2)>span:before {content:"1995";} 
+
+.sem-i-d>div:nth-of-type(2)>i:before { 
+content: "\f252"; 
+font-family: 'FontAwesome' !important; 
+} 
+
+.sem-header { 
+background-image: url('https://i.postimg.cc/GmGF5Sfd/ASHed.png') !important; 
+} 
+
+body, body.night { 
+margin-top: 0 !important; 
+background: url('https://i.postimg.cc/FRBkRj68/ASFondo.png'), var(--bckg-1); 
+background-attachment: fixed; 
+background-position: center; 
+background-size: cover; 
+min-width: 1200px; 
+} 
+
+.semp-r-c-t-b { 
+background: var(--grd); 
+} 
+
+.semp-r-c-t-icon, .semp-r-c-t-usern { 
+background: var(--accau1) !important; 
+} 
+
+.semp-r-c-t-b>div:nth-child(1)>a, .semp-r-c-t-b>div:nth-child(2)>a, .rep-button, .rep-button:focus, .rep-button:active, dl.codebox dt, .icon-grupo>i:before { 
+color: var(--accau1) !important; 
+} 
+
+.rep-button i, .rep-button svg { 
+color: var(--accau1); 
+} 
+
+.sem-r-av-h { 
+display: none; 
+} 
+
+.semp-r-c-t-b { 
+--grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
+} 
+
+.semp-cajon-respuesta { 
+--grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
+border-bottom-color: var(--accau1); 
+--accent:var(-accau1)!important; 
+} 
+
+.tomarcolor .content.clearfix strong {color:var(--accau1);} 
+
+.celebridades .icon-grupo>i:before { 
+content: "\f004" !important; 
+} 
+
+.sami .icon-grupo>i:before { 
+content: "\f2dc" !important; 
+} 
+
+.semp-r-c-t-datos a, .semp-r-c-t-datos strong { 
+margin-top: 10px; 
+position: relative; 
+display: block; 
+color: var(--accau1); 
+} 
+
+.semp-r-c-t-n>div>b strong { 
+visibility: hidden; 
+} 
+
+.semp-r-c-t-datos a:before { 
+margin-left: -1px; 
+position: absolute; 
+font-style: italic; 
+} 
+
+.semp-r-c-t-datos a[href="/u1057"]:before {content:"Sael"} 
+.semp-r-c-t-datos a[href="/u1020"]:before {content:"Yuki"} 
+
+.semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
+
+.semp-r-c-t-datos a:after { 
+text-transform: uppercase; 
+font-weight: 600; 
+letter-spacing: .5px; 
+text-shadow: var(--txsh) !important; 
+font-size: 13px !important; 
+color: var(--color) !important; 
+line-height: 28px; 
+} 
+
+.semp-r-c-t-n>div>span { 
+display: none; 
+} 
+
+.semp-r-c-t-datos a[href="/u1057"]:after {content: "Ángel Guardian";} 
+.semp-r-c-t-datos a[href="/u1020"]:after {content: "Guardián del Templo";} 
+
+.sami .semp-r-c-t-b { 
+--grd: linear-gradient(to left, var(--accau2), var(--accau1)); 
+} 
+
+.sami .semp-cajon-respuesta { 
+--grd: linear-gradient(to left, var(--accau2), var(--accau1)); 
+border-bottom-color: var(--accau2); 
+--accent:var(-accau2)!important; 
+} 
+
+.sami .semp-r-c-t-icon, .sami .semp-r-c-t-usern { 
+background: var(--accau2) !important; 
+} 
+
+/*GRAFICOS*/ 
+/*Avatares*/ 
+av>a[href="/u1057"] img { 
+content: url(https://i.postimg.cc/9fy813Kb/ASAngel.png); 
+} 
+
+av>a[href="/u1020"] img { 
+content: url(https://i.postimg.cc/FK0WGt8Z/ASHuman.png); 
+} 
+
+/*Miniaturas*/ 
+.celebridades .semp-r-c-t-icon img { 
+content: url(https://i.postimg.cc/vmVWBh8R/Mini_AUAngel.png); 
+} 
+
+.sami .semp-r-c-t-icon img { 
+content: url(https://i.postimg.cc/R0BqHxkv/Mini-Y1.png); 
+} 

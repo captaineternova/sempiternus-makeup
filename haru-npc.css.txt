@@ -1,0 +1,68 @@
+/*AVATAR*/
+#p56383 .semp-r-avatar av img, #p58495 .semp-r-avatar av img {
+    content: url(https://i.postimg.cc/j5TP90Xr/Haru1.png);
+}
+
+
+/*MINI*/
+#p56383 .semp-r-c-t-icon img, #p58495 .semp-r-c-t-icon img {
+    content: url(https://i.postimg.cc/nzxB5b1S/Haru2.png);
+}
+
+
+/*NOMBRE*/
+#p56383 .semp-r-c-t-datos a:before, #p58495 .semp-r-c-t-datos a:before {
+    content:"Haru Fuyuhara"
+}
+
+
+/*RANGO*/
+#p56383 .semp-r-c-t-datos a:after, #p58495 .semp-r-c-t-datos a:after {
+    content: "PNJ • Estudiante de primaria";
+}
+
+
+#p56383 .semp-r-c-t-datos a, #p58495 .semp-r-c-t-datos a {
+    margin-top: 10px;
+    display: block;
+}
+
+
+#p56383 .semp-r-c-t-n>div>b strong, #p58495 .semp-r-c-t-n>div>b strong {
+    visibility: hidden;
+}
+
+
+
+
+#p56383 .semp-r-c-t-n>div>span, #p58495 .semp-r-c-t-n>div>span {
+    display: none;
+}
+
+
+#p56383 .sem-r-av-h, #p58495 .sem-r-av-h {
+    display: none;
+}
+
+
+.semp-r-c-t-datos a:before {
+    margin-left: -1px;
+    position: absolute;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+.semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); }
+
+
+.semp-r-c-t-datos a:after {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-shadow: var(--txsh) !important;
+    font-size: 13px !important;
+    color: var(--color) !important;
+    line-height: 45px;
+    --color: var(--color-text);
+}

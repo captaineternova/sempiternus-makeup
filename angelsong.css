@@ -134,26 +134,6 @@ display: none;
 
 .content.clearfix div strong i {color: var(--accau1);} 
 
-
-/*EDICIONES ANTIGUAS*/ 
-
-
-.post7-titulo i {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;/* text-shadow: none;*/background: -webkit-linear-gradient(40deg, var(--acentob), var(--acento));} .post2-dts {width: 95%;display:none;} 
-.post2 p {width: 56%;font-size: var(--font);overflow: auto;height: 200px;} 
-
-p::-webkit-scrollbar {width:0px !important;} 
-
-
-.post2 {height: 468px;} 
-
-.post7-txt {margin-left:0px;} 
-.post7-datos {margin: 0 15px 15px 0px;} 
-.post7-texto strong {color: var(--acento) !important;} 
-
-.post7-titulo b, .post7-titulo i, .post7-titulo strong, .post7-titulo em { 
-color: var(--acento) !important; 
-} 
-
 /*EDICIÓN AMBIENTAL*/ 
 
 body { 
@@ -270,6 +250,10 @@ position: absolute;
 font-style: italic; 
 } 
 
+.semp-pag > span > a {
+    background: var(--acc-1);
+}
+
 .semp-r-c-t-datos a[href="/u1057"]:before {content:"Sael"} 
 .semp-r-c-t-datos a[href="/u1020"]:before {content:"Yuki"} 
 
@@ -304,6 +288,23 @@ border-bottom-color: var(--accau2);
 
 .sami .semp-r-c-t-icon, .sami .semp-r-c-t-usern { 
 background: var(--accau2) !important; 
+} 
+
+/*EDICIONES ANTIGUAS*/ 
+.post7-titulo i {-webkit-background-clip: text !important;-webkit-text-fill-color: transparent !important;/* text-shadow: none;*/background: -webkit-linear-gradient(40deg, var(--acentob), var(--acento));} .post2-dts {width: 95%;display:none;} 
+.post2 p {width: 56%;font-size: var(--font);overflow: auto;height: 200px;} 
+
+p::-webkit-scrollbar {width:0px !important;} 
+
+
+.post2 {height: 468px;} 
+
+.post7-txt {margin-left:0px;} 
+.post7-datos {margin: 0 15px 15px 0px;} 
+.post7-texto strong {color: var(--acento) !important;} 
+
+.post7-titulo b, .post7-titulo i, .post7-titulo strong, .post7-titulo em { 
+color: var(--acento) !important; 
 } 
 
 /*GRAFICOS*/ 

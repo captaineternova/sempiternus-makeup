@@ -141,6 +141,10 @@ position: absolute;
 font-style: italic; 
 } 
 
+.semp-pag > span > a {
+    background: var(--acc-1);
+}
+
 .semp-r-c-t-datos a[href="/u851"]:before {content:"Hyndriel"} 
 .semp-r-c-t-datos a[href="/u835"]:before {content:"Richard Lawrence"} 
 

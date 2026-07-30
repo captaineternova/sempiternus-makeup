@@ -1,0 +1,17 @@
+/*HYUN DAHL JULIO 2026*/
+/*Avatar*/ 
+av>a[href="/u835"] img { 
+content: url(https://i.postimg.cc/Z5z54y7F/HDYll.png); 
+} 
+
+/*Firma*/
+.hfb:before {
+    content: "";
+    background: url(https://i.postimg.cc/0y1yPJWG/HDYll-F.png);
+    width: 290px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}

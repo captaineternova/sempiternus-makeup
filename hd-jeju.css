@@ -1,0 +1,21 @@
+/*HYUN DAHL ARCO JEJU*/
+/*Avatar*/ 
+av>a[href="/u851"] img { 
+content: url(https://i.postimg.cc/C5jFGKVd/Yuni-VAv.png); 
+} 
+
+/*Firma*/
+.hfb:before {
+    content: "";
+    background: url(https://i.postimg.cc/tJhX3gHT/Yuni-V.png);
+    width: 290px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+img#hdi { 
+content: url(https://i.postimg.cc/5ywxBtMQ/Yuni-V.gif); 
+} 

@@ -65,7 +65,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 #deceased b {
-    color: #733535 !important;
+    color: var(--deceased) !important;
     text-shadow: none !important;
     display: block;
     visibility: visible;
@@ -76,13 +76,17 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 #deceased .thiago-rl>div>div>i {
-    background: #7e2e2e;
+    background: var(--deceased);
 }
 
 #deceased .thiago-rl>div>div:before {
     translate: 0 0;
     opacity: 1;
     mix-blend-mode: hue;
+}
+
+#deceased .thiago-rl>div>div:after {
+    background: linear-gradient(0, var(--deceased), transparent);
 }
 
 .thiago-rl span i {
@@ -121,12 +125,13 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 
 /*EDICIÓN AMBIENTAL*/
 body { 
---accau1:#7DAE9B; 
---accau2:#4D919F; 
---accau3:var(--color); 
---accau4:var(--cicon); 
---grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
---grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
+    --deceased:#733535;
+    --accau1:#7DAE9B; 
+    --accau2:#4D919F; 
+    --accau3:var(--color);
+    --accau4:var(--cicon);
+    --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
+    --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 } 
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 

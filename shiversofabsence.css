@@ -25,7 +25,49 @@ display: none;
 
 .content.clearfix div strong i {color: var(--accau1);} 
 
+/*ADECUACIÓN CÓDIGOS*/
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
+
+.gd-main {
+    min-height: auto;
+}
+
+.gd-page {
+    font-size: 15px !important;
+}
+
+.thiago-rl:nth-of-type(n+1) {
+    --acento: var(--acc-1);
+}
+
+.thiago-rl:nth-of-type(2n+1) {
+    --acento: var(--acc-2);
+}
+
+.thiago.rela {
+    margin-bottom: -150px;
+    margin-left: 0px;
+}
+
+.thiago-rl span b {
+    visibility: hidden;
+}
+
+#deceased {
+    --acento: #7D7D7D;
+}
+
+#deceased b {
+    color: #733535 !important;
+    text-shadow: none !important;
+    display: block;
+    visibility: visible;
+}
+
+.thiago-rl span i {
+    display: block;
+    font-weight: lighter;
+}
 
 /*EDICIÓN AMBIENTAL*/
 body { 

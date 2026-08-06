@@ -80,7 +80,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 #deceased b {
-    color: var(--deceased) !important;
+    color: var(--accau1) !important;
     text-shadow: none !important;
     display: block;
     visibility: visible;
@@ -91,7 +91,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 #deceased>div>div>i {
-    background: var(--deceased);
+    background: var(--accau1);
 }
 
 #deceased>div>div:before {
@@ -101,7 +101,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 #deceased>div>div:after {
-    background: linear-gradient(0, var(--deceased), transparent);
+    background: linear-gradient(0, var(--accau2), transparent);
 }
 
 .thiago-rl span i {
@@ -140,7 +140,6 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 
 /*EDICIÓN AMBIENTAL*/
 body { 
-    --deceased:#733535;
     --accau1:#7DAE9B; 
     --accau2:#4D919F; 
     --accau3:var(--color);

@@ -25,6 +25,21 @@ display: none;
 
 .content.clearfix div strong i {color: var(--accau1);} 
 
+a.credito {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    transition: 1s;
+    opacity: 0.6;
+}
+
+a.credito:hover {
+    transition: 1s;
+    opacity: 1;
+}
+
 /*ADECUACIÓN CÓDIGOS*/
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
 

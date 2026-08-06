@@ -1,19 +1,19 @@
 /*SHIVER OF ABSENCE*/
-#pPOST .semp-r-content { 
+#p .semp-r-content { 
 width:94em; 
 } 
 
-#pPOST .semp-r-avatar { 
+#p .semp-r-avatar { 
 display: none; 
 } 
 
-#pPOST .semp-r-c-t-icon img {content: url(https://placehold.co/250)} 
+#p .semp-r-c-t-icon img {content: url(https://placehold.co/250)} 
 
-#pPOST .semp-r-c-t-datos.icon-grupo { 
+#p .semp-r-c-t-datos.icon-grupo { 
 display: none; 
 } 
 
-#pPOST strong:first-of-type { 
+#p strong:first-of-type { 
 color: var(--accau1); 
 } 
 

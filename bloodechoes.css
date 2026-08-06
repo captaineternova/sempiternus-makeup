@@ -35,6 +35,10 @@ display: none;
 
 eternova sprd:before {content:"—˖⁺‧₊☽◯☾₊‧⁺˖—" !important;color: var(--accau1) !important;}
 
+.semp-r-c-t-b>div>span {
+    visibility: hidden;
+}
+
 /*EDICIÓN AMBIENTAL*/ 
 
 body { 

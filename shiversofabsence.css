@@ -138,9 +138,9 @@ margin-bottom: -15px;
 background: var(--accau1) !important; 
 } 
 
-.sem-i-d>div:nth-of-type(1)>b:before {content:"LUGAR DE LA HISTORIA";} 
+.sem-i-d>div:nth-of-type(1)>b:before {content:"Gwacheon, Corea del Sur";} 
 .sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
-.sem-i-d>div:nth-of-type(2)>span:before {content:"Año XXXX";} 
+.sem-i-d>div:nth-of-type(2)>span:before {content:"Año 2019";} 
 
 .sem-i-d>div:nth-of-type(2)>i:before { 
 content: "\f0f8"; 

@@ -36,14 +36,6 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     font-size: 15px !important;
 }
 
-.thiago-rl:nth-of-type(n+1) {
-    --acento: var(--acc-1);
-}
-
-.thiago-rl:nth-of-type(2n+1) {
-    --acento: var(--acc-2);
-}
-
 .thiago.rela {
     margin-bottom: -150px;
     margin-left: 0px;

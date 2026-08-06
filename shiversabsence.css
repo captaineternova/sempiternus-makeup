@@ -64,6 +64,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     border-radius: 20px;
     width: 800px;
     margin-top: -10px;
+    border: 1px solid var(--bckg-1);
 }
 
 .thiago-rl span b {

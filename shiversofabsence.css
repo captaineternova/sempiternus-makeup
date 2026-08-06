@@ -1,0 +1,30 @@
+/*SHIVER OF ABSENCE*/
+#pPOST .semp-r-content { 
+width:94em; 
+} 
+
+#pPOST .semp-r-avatar { 
+display: none; 
+} 
+
+#pPOST .semp-r-c-t-icon img {content: url(https://i.postimg.cc/v843M7yd/image.png)} 
+
+#pPOST .semp-r-c-t-datos.icon-grupo { 
+display: none; 
+} 
+
+#pPOST strong:first-of-type { 
+color: var(--accau1); 
+} 
+
+.semp-r-c-t-contacto { 
+display: none; 
+} 
+
+.signature_div {visibility: hidden;height: 0px;} 
+
+.content.clearfix div strong i {color: var(--accau1);} 
+
+eternova sprd:before {content:"—˖⁺‧₊☽◯☾₊‧⁺˖—" !important;color: var(--accau1) !important;}
+
+/*EDICIÓN AMBIENTAL*/

@@ -103,6 +103,10 @@ gap: 0;
 
 eternova sprd:before {content:"—⊹‧₊˚♪ 𝄞₊˚⊹—" !important;color: var(--accau1) !important;}
 
+.semp-r-c-t-b>div>span {
+    visibility: hidden;
+}
+
 /*EDICIÓN PRIMER POST*/ 
 #p67276 .semp-r-content { 
 width:94em; 

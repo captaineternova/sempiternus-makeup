@@ -69,6 +69,20 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     text-shadow: none !important;
     display: block;
     visibility: visible;
+    background: #333;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+#deceased .thiago-rl>div>div>i {
+    background: #7e2e2e;
+}
+
+#deceased .thiago-rl>div>div:before {
+    translate: 0 0;
+    opacity: 1;
+    mix-blend-mode: hue;
 }
 
 .thiago-rl span i {

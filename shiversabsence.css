@@ -41,6 +41,10 @@ a.credito:hover {
     opacity: 1;
 }
 
+.semp-r-c-t-b>div>span {
+    visibility: hidden;
+}
+
 /*ADECUACIÓN CÓDIGOS*/
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
 

@@ -69,6 +69,35 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     font-weight: lighter;
 }
 
+.thiago.post {
+    --acentoa: var(--accau1);
+    --acentob: var(--accau2);
+}
+
+.thiago.post {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.thiago.post div br {
+    display: inline;
+}
+
+.thiago.post {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.thiago-pst > div {
+    width: 700px;
+}
+
+.thiago.post > div i {
+    color: var(--accau2);
+}
+
 /*EDICIÓN AMBIENTAL*/
 body { 
 --accau1:#7DAE9B; 

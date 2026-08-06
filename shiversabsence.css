@@ -58,7 +58,12 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 
 .thiago.rela {
     margin-bottom: -150px;
-    margin-left: 0px;
+    margin-left: 50px;
+    background: var(--bckg-3);
+    padding: 20px;
+    border-radius: 20px;
+    width: 800px;
+    margin-top: -10px;
 }
 
 .thiago-rl span b {

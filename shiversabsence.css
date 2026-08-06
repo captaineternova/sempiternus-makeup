@@ -33,6 +33,7 @@ a.credito {
     letter-spacing: 1px;
     transition: 1s;
     opacity: 0.5;
+    color:var(--accau1) !important;
 }
 
 a.credito:hover {

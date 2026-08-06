@@ -75,17 +75,17 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     padding: 5px 10px;
 }
 
-#deceased .thiago-rl>div>div>i {
+#deceased>div>div>i {
     background: var(--deceased);
 }
 
-#deceased .thiago-rl>div>div:before {
+#deceased>div>div:before {
     translate: 0 0;
     opacity: 1;
     mix-blend-mode: hue;
 }
 
-#deceased .thiago-rl>div>div:after {
+#deceased>div>div:after {
     background: linear-gradient(0, var(--deceased), transparent);
 }
 

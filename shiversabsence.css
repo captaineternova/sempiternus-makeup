@@ -119,7 +119,7 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
     width: 700px;
 }
 
-.thiago.post > div i {
+.thiago.post > div > div i {
     color: var(--accau2);
 }
 

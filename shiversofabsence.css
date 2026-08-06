@@ -7,7 +7,7 @@ width:94em;
 display: none; 
 } 
 
-#pPOST .semp-r-c-t-icon img {content: url(IMAGENPRIMERPOST)} 
+#pPOST .semp-r-c-t-icon img {content: url(https://placehold.co/250)} 
 
 #pPOST .semp-r-c-t-datos.icon-grupo { 
 display: none; 
@@ -148,12 +148,12 @@ font-family: 'Font Awesome 5 Pro' !important;
 } 
 
 .sem-header { 
-background-image: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png); 
+background-image: url(https://i.postimg.cc/sDfdx8Sb/So-AHed.png); 
 } 
 
 body, body.night { 
 margin-top: 0 !important; 
-background: url(https://i.postimg.cc/L8S5bLbM/AUBloodFondo.png), var(--bckg-1); 
+background: url(https://i.postimg.cc/656JqSRM/So-AFondo.png), var(--bckg-1); 
 background-attachment: fixed; 
 background-position: center; 
 background-size: cover; 
@@ -217,10 +217,10 @@ font-style: italic;
 
 .semp-r-c-t-datos a[href="/u851"]:before {content:"Hyun Dahl"} 
 .semp-r-c-t-datos a[href="/u835"]:before {content:"Richard Lawrence"} 
-.semp-r-c-t-datos a[href="/u851"]:before {content:"Yoonie Fuyuhara"} 
-.semp-r-c-t-datos a[href="/u835"]:before {content:"Yuki Fuyuhara"} 
-.semp-r-c-t-datos a[href="/u851"]:before {content:"Haru Stormgaard"} 
-.semp-r-c-t-datos a[href="/u835"]:before {content:"Cheng Wuxian"} 
+.semp-r-c-t-datos a[href="/u1057"]:before {content:"Yoonie Fuyuhara"} 
+.semp-r-c-t-datos a[href="/u1020"]:before {content:"Yuki Fuyuhara"} 
+.semp-r-c-t-datos a[href="/u1247"]:before {content:"Haru Stormgaard"} 
+.semp-r-c-t-datos a[href="/u1246"]:before {content:"Cheng Wuxian"} 
 
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 
@@ -238,56 +238,56 @@ line-height: 28px;
 display: none; 
 } 
 
-.semp-r-c-t-datos a[href="/u851"]:after {content: "Pediatría";} 
-.semp-r-c-t-datos a[href="/u835"]:after {content: "Pediatría";} 
-.semp-r-c-t-datos a[href="/u851"]:after {content: "Obstreticia";} 
+.semp-r-c-t-datos a[href="/u851"]:after, 
+.semp-r-c-t-datos a[href="/u1057"]:after {content: "Pediatría";} 
+.semp-r-c-t-datos a[href="/u1247"]:after {content: "Obstreticia";} 
 .semp-r-c-t-datos a[href="/u835"]:after {content: "Trauma y emergencia";} 
-.semp-r-c-t-datos a[href="/u851"]:after {content: "Neurología";} 
-.semp-r-c-t-datos a[href="/u835"]:after {content: "Cardiología";} 
+.semp-r-c-t-datos a[href="/u1020"]:after {content: "Neurología";} 
+.semp-r-c-t-datos a[href="/u1246"]:after {content: "Cardiología";} 
 
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u835"] img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250x400); 
 } 
 
 av>a[href="/u851"] img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250x400); 
 } 
 
-av>a[href="/u835"] img { 
-content: url(ENLACE); 
+av>a[href="/u1057"] img { 
+content: url(https://placehold.co/250x400); 
 } 
 
-av>a[href="/u851"] img { 
-content: url(ENLACE); 
+av>a[href="/u1020"] img { 
+content: url(https://placehold.co/250x400); 
 } 
 
-av>a[href="/u835"] img { 
-content: url(ENLACE); 
+av>a[href="/u1247"] img { 
+content: url(https://placehold.co/250x400); 
 } 
 
-av>a[href="/u851"] img { 
-content: url(ENLACE); 
+av>a[href="/u1246"] img { 
+content: url(https://placehold.co/250x400); 
 } 
 
 /*Miniaturas*/ 
 .celebridades .semp-r-c-t-icon img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250); 
 } 
 
 .ciudadanos .semp-r-c-t-icon img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250); 
 } 
 
 .sanidad .semp-r-c-t-icon img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250); 
 } 
 
 .sami .semp-r-c-t-icon img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250); 
 } 
 
 .empresarios .semp-r-c-t-icon img { 
-content: url(ENLACE); 
+content: url(https://placehold.co/250); 
 } 

@@ -32,10 +32,15 @@ display: none;
 #hyn strong {color:#7c3535;} 
 .content.clearfix div strong i {color: var(--accau1);} 
 
-eternova sprd:before {content:"—˖⁺‧₊☽◯☾₊‧⁺˖—" !important;color: var(--accau1) !important;}
+eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;color: var(--accau1) !important;}
 
 .semp-r-c-t-b>div>span {
     visibility: hidden;
+}
+
+.neverwas {
+    display: flex;
+    width:100%;
 }
 
 /*EDICIÓN AMBIENTAL*/ 

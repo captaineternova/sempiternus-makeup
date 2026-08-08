@@ -198,7 +198,8 @@ content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png);
 #p67855 av>a[href="/u835"] img,
 #p78289 av>a[href="/u835"] img,
 #p80797 av>a[href="/u835"] img,
-#p82311 av>a[href="/u835"] img { 
+#p82311 av>a[href="/u835"] img,
+#p86723 av>a[href="/u835"] img { 
 content: url(https://i.postimg.cc/X72v0XdX/9Nn-W4KK.png); 
 } 
 
@@ -208,7 +209,8 @@ content: url(https://i.postimg.cc/X72v0XdX/9Nn-W4KK.png);
 #p67855 .semp-r-c-t-icon img,
 #p78289 .semp-r-c-t-icon img,
 #p80797 .semp-r-c-t-icon img,
-#p82311 .semp-r-c-t-icon img { 
+#p82311 .semp-r-c-t-icon img,
+#p86723 .semp-r-c-t-icon img { 
 content: url(https://i.postimg.cc/d0Yr9Qtq/Mini-BH.png); 
 } 
 
@@ -218,7 +220,8 @@ content: url(https://i.postimg.cc/d0Yr9Qtq/Mini-BH.png);
 #p67855 .semp-r-c-t-datos a[href="/u835"]:before,
 #p78289 .semp-r-c-t-datos a[href="/u835"]:before,
 #p80797 .semp-r-c-t-datos a[href="/u835"]:before,
-#p82311 .semp-r-c-t-datos a[href="/u835"]:before { 
+#p82311 .semp-r-c-t-datos a[href="/u835"]:before,
+#p86723 .semp-r-c-t-datos a[href="/u835"]:before { 
 content:"Min Baek Ho" 
 } 
 
@@ -228,6 +231,7 @@ content:"Min Baek Ho"
 #p67855 .semp-r-c-t-datos a[href="/u835"]:after,
 #p78289 .semp-r-c-t-datos a[href="/u835"]:after,
 #p80797 .semp-r-c-t-datos a[href="/u835"]:after,
-#p82311 .semp-r-c-t-datos a[href="/u835"]:after { 
+#p82311 .semp-r-c-t-datos a[href="/u835"]:after,
+#p86723 .semp-r-c-t-datos a[href="/u835"]:after{ 
 content: "Príncipe Heredero"; 
 } 

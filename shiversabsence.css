@@ -135,7 +135,11 @@ eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !imp
 }
 
 .thiago.post > div > div i {
-    color: var(--accau2);
+    color: var(--accau1);
+}
+
+.thiago.post > div > div strong {
+    color: var(--accau2) !important;
 }
 
 /*EDICIÓN AMBIENTAL*/

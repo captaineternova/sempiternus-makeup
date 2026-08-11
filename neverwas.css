@@ -94,7 +94,7 @@ eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;col
     height: 170px;
     position: absolute;
     padding: 15px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 18px;
     outline: 1px solid var(--accau4);
     outline-offset: -6px;
@@ -117,6 +117,10 @@ eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;col
 }
 
 .poste2-tx b {
+    color: var(--acento) !important;
+}
+
+.poste7-tx strong, .poste7-tx b {
     color: var(--acento) !important;
 }
 

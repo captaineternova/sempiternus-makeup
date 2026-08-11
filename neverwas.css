@@ -25,6 +25,22 @@ display: none;
 
 eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;color: var(--accau1) !important;}
 
+a.credito {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    transition: 1s;
+    opacity: 0.5;
+    color:var(--accau1) !important;
+}
+
+a.credito:hover {
+    transition: 1s;
+    opacity: 1;
+}
+
 .semp-r-c-t-b>div>span {
     visibility: hidden;
 }
@@ -75,7 +91,7 @@ eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;col
     line-height: 21px;
 }
 
-.imagencostado p:first-letter, .imagencostado p i { color: var(--accau1);}
+.imagencostado p:first-letter, .imagencostado p i { color: var(--accau1);font-weight:bolder}
 
 .neverwas .poste7 {
     flex: 2.5;
@@ -94,7 +110,6 @@ eternova sprd:before {content:"━━━━⊱⋆⊰━━━━" !important;col
     height: 170px;
     position: absolute;
     padding: 15px;
-    font-weight: 300;
     line-height: 18px;
     outline: 1px solid var(--accau4);
     outline-offset: -6px;
@@ -162,10 +177,10 @@ background: var(--accau1) !important;
 .sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
 .sem-i-d>div:nth-of-type(2)>span:before {content:"¿...?";} 
 
-.sem-i-d>div:nth-of-type(2)>i:before { 
-content: "\f594"; 
-font-family: 'Font Awesome 5 Pro' !important; 
-} 
+.sem-i-d>div:nth-of-type(2)>i:before {
+    content: "\f273";
+    font-family: 'FontAwesome' !important;
+}
 
 .sem-header { 
 background-image: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png); 
@@ -211,7 +226,7 @@ border-bottom-color: var(--accau1);
 } 
 
 .semp-cajon-respuesta .icon-grupo>i:before { 
-content: "\f273" !important; 
+content: "\f594" !important; 
 } 
 
 .semp-r-c-t-datos a, .semp-r-c-t-datos strong { 

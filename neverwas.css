@@ -7,7 +7,7 @@ width:94em;
 display: none; 
 } 
 
-#p52484 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/v843M7yd/image.png)} 
+#p52484 .semp-r-c-t-icon img {content: url(https://i.postimg.cc/MpxVXKqB/Mini-NW1.png)} 
 
 #p52484 .semp-r-c-t-datos.icon-grupo { 
 display: none; 
@@ -183,12 +183,12 @@ background: var(--accau1) !important;
 }
 
 .sem-header { 
-background-image: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png); 
+background-image: url(https://i.postimg.cc/GpKxGYHD/Header-NW.png); 
 } 
 
 body, body.night { 
 margin-top: 0 !important; 
-background: url(https://i.postimg.cc/L8S5bLbM/AUBloodFondo.png), var(--bckg-1); 
+background: url(https://i.postimg.cc/QMmJ15HT/Fondo-NW.png), var(--bckg-1); 
 background-attachment: fixed; 
 background-position: center; 
 background-size: cover; 

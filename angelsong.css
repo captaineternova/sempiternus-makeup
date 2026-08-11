@@ -194,7 +194,11 @@ background-attachment: fixed;
 background-position: center; 
 background-size: cover; 
 min-width: 1200px; 
-} 
+}
+
+body.night { 
+    background-blend-mode: soft-light;
+}
 
 .semp-r-c-t-b { 
 background: var(--grd); 

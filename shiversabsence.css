@@ -150,6 +150,7 @@ body {
     --accau4:var(--cicon);
     --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
     --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
+    --acento-base:var(--accau1);
 } 
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 

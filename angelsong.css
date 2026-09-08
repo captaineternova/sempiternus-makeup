@@ -149,6 +149,7 @@ body {
 --accau6:var(--bckg-2); 
 --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
+--acento-base:var(--accau1);
 } 
 
 .semp-tablon, #wrap, .sem-i-d, a#fa_notifications { 

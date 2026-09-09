@@ -140,7 +140,6 @@ a.credito:hover {
 }
 
 /*EDICIÓN AMBIENTAL*/ 
-
 body { 
 --accau1:#a45e43; 
 --accau2:#b6947c; 
@@ -149,7 +148,16 @@ body {
 --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --acento-base:var(--accau1);
+--header-img: url(https://i.postimg.cc/GpKxGYHD/Header-NW.png);
 } 
+
+.atara-header #site-title:before {
+    content: "Desconocido, Desconocido";
+}
+
+.atara-header #site-title:after {
+    content: "Never-was";
+}
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
 --acc-1: var(--accau1); 
@@ -256,8 +264,11 @@ font-style: italic;
     background: var(--acc-1);
 }
 
-.semp-r-c-t-datos a[href="/u1247"]:before {content:"Nombre Haru"} 
-.semp-r-c-t-datos a[href="/u1246"]:before {content:"Nombre Wuxian"} 
+.semp-r-c-t-datos a[href="/u1247"]:before, 
+.atara-name a[href="/u9"] span strong:before {content:"Nombre Haru"} 
+
+.semp-r-c-t-datos a[href="/u1246"]:before, 
+.atara-name a[href="/u8"] span strong:before {content:"Nombre Wuxian"} 
 
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 
@@ -275,24 +286,31 @@ line-height: 28px;
 display: none; 
 } 
 
-.semp-r-c-t-datos a[href="/u1247"]:after {content: "Rango H";} 
-.semp-r-c-t-datos a[href="/u1246"]:after {content: "Rango X";} 
+.semp-r-c-t-datos a[href="/u1247"]:after,
+.pj-haru-stormgaard .atara-rango:before {content: "Rango H";} 
+
+.semp-r-c-t-datos a[href="/u1246"]:after,
+.pj-cheng-wuxian .atara-rango:before {content: "Rango X";} 
 
 /*GRAFICOS*/ 
 /*Avatares*/ 
-av>a[href="/u1246"] img { 
+av>a[href="/u1246"] img,
+.pj-cheng-wuxian .atara-avatar img { 
 content: url(https://i.postimg.cc/CLvKVdDc/0YTIe4x.png); 
 } 
 
-av>a[href="/u1247"] img { 
+av>a[href="/u1247"] img,
+.pj-haru-stormgaard .atara-avatar img { 
 content: url(https://i.postimg.cc/5NdwwqVj/Hyumpiro.png); 
 } 
 
 /*Miniaturas*/ 
-.sanidad .semp-r-c-t-icon img { 
+.sanidad .semp-r-c-t-icon img,
+.pj-haru-stormgaard .atara-content img { 
 content: url(https://i.postimg.cc/wBpLkxTg/Mini-RL.png); 
 } 
 
-.empresarios .semp-r-c-t-icon img { 
+.empresarios .semp-r-c-t-icon img,
+.pj-cheng-wuxian .atara-content img { 
 content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png); 
 } 

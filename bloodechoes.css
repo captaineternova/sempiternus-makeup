@@ -164,10 +164,10 @@ font-style: italic;
 }
 
 .semp-r-c-t-datos a[href="/u851"]:before, 
-.atara-name a[href="/u5"] span strong:before {content:"Hyndriel"} 
+.pj-hyun-dahl .atara-name a:before {content:"Hyndriel"} 
 
 .semp-r-c-t-datos a[href="/u835"]:before, 
-.atara-name a[href="/u4"] span strong:before {content:"Richard Lawrence"} 
+.pj-richard-lawrence .atara-name a:before {content:"Richard Lawrence"} 
 
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 

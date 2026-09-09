@@ -51,6 +51,14 @@ body {
 --header-img: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png);
 } 
 
+.atara-header #site-title:before {
+    content: "Gangneung, Corea del Sur";
+}
+
+.atara-header #site-title:after {
+    content: "Blood Echoes";
+}
+
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
 --acc-1: var(--accau1); 
 } 

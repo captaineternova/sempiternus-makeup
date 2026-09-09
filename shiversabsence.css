@@ -321,6 +321,10 @@ line-height: 28px;
 display: none; 
 } 
 
+.pj-richard-lawrence .atara-name a:before {
+    margin-top: -5px;
+}
+
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u835"] img,

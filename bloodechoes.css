@@ -48,6 +48,7 @@ body {
 --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --acento-base:var(--accau1);
+--header-img: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png);
 } 
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
@@ -154,8 +155,11 @@ font-style: italic;
     background: var(--acc-1);
 }
 
-.semp-r-c-t-datos a[href="/u851"]:before {content:"Hyndriel"} 
-.semp-r-c-t-datos a[href="/u835"]:before {content:"Richard Lawrence"} 
+.semp-r-c-t-datos a[href="/u851"]:before, 
+.atara-name a[href="/u5"] span strong:before {content:"Hyndriel"} 
+
+.semp-r-c-t-datos a[href="/u835"]:before, 
+.atara-name a[href="/u4"] span strong:before {content:"Richard Lawrence"} 
 
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 
@@ -173,25 +177,30 @@ line-height: 28px;
 display: none; 
 } 
 
-.semp-r-c-t-datos a[href="/u851"]:after {content: "Vampiro";} 
-.semp-r-c-t-datos a[href="/u835"]:after {content: "Cazador";} 
+.semp-r-c-t-datos a[href="/u851"]:after,
+.pj-hyun-dahl .atara-rango:before {content: "Vampiro";} 
+
+.semp-r-c-t-datos a[href="/u835"]:after, 
+.pj-richard-lawrence .atara-rango:before {content: "Cazador";} 
 
 /*GRAFICOS*/ 
 /*Avatares*/ 
-av>a[href="/u835"] img { 
+av>a[href="/u835"] img,
+.pj-richard-lawrence .atara-avatar img { 
 content: url(https://i.postimg.cc/CLvKVdDc/0YTIe4x.png); 
 } 
 
-av>a[href="/u851"] img { 
+av>a[href="/u851"] img,
+.pj-hyun-dahl .atara-avatar img { 
 content: url(https://i.postimg.cc/5NdwwqVj/Hyumpiro.png); 
 } 
 
 /*Miniaturas*/ 
-.ciudadanos .semp-r-c-t-icon img { 
+.ciudadanos .semp-r-c-t-icon img, .pj-richard-lawrence .atara-content img { 
 content: url(https://i.postimg.cc/wBpLkxTg/Mini-RL.png); 
 } 
 
-.celebridades .semp-r-c-t-icon img { 
+.celebridades .semp-r-c-t-icon img, .pj-hyun-dahl .atara-content img { 
 content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png); 
 } 
 
@@ -240,3 +249,6 @@ content:"Min Baek Ho"
 #p86723 .semp-r-c-t-datos a[href="/u835"]:after{ 
 content: "Príncipe Heredero"; 
 } 
+
+
+/*ADECUACIONES - BAUL PERSONAL*/

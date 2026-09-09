@@ -1,4 +1,32 @@
 /*NEVERWAS*/
+/*PERSONALIZACION DATOS*/
+.sem-i-d>div:nth-of-type(1)>b:before {content:"Hotel Never-was";} 
+.sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
+.sem-i-d>div:nth-of-type(2)>span:before {content:"¿...?";} 
+
+.atara-header #site-title:before {
+    content: "Desconocido, Desconocido";
+}
+
+.atara-header #site-title:after {
+    content: "Never-was";
+}
+
+/*Nombres*/
+.semp-r-c-t-datos a[href="/u1247"]:before, 
+.pj-haru-stormgaard .atara-name a:before {content:"Nombre Haru"} 
+
+.semp-r-c-t-datos a[href="/u1246"]:before, 
+.pj-cheng-wuxian .atara-name a:before {content:"Nombre Wuxian"} 
+
+/*Rangos*/
+.semp-r-c-t-datos a[href="/u1247"]:after,
+.pj-haru-stormgaard .atara-rango:before {content: "Rango H";} 
+
+.semp-r-c-t-datos a[href="/u1246"]:after,
+.pj-cheng-wuxian .atara-rango:before {content: "Rango X";} 
+
+/*PRIMER POST*/
 #p52484 .semp-r-content { 
 width:94em; 
 } 
@@ -151,12 +179,22 @@ body {
 --header-img: url(https://i.postimg.cc/GpKxGYHD/Header-NW.png);
 } 
 
-.atara-header #site-title:before {
-    content: "Desconocido, Desconocido";
+.sem-i-d>div:nth-of-type(2)>i:before {
+    content: "\f273";
+    font-family: 'FontAwesome' !important;
 }
 
-.atara-header #site-title:after {
-    content: "Never-was";
+.sem-header { 
+background-image: url(https://i.postimg.cc/GpKxGYHD/Header-NW.png); 
+} 
+
+body, body.night { 
+margin-top: 0 !important; 
+background: url(https://i.postimg.cc/QMmJ15HT/Fondo-NW.png), var(--bckg-1); 
+background-attachment: fixed; 
+background-position: center; 
+background-size: cover; 
+min-width: 1200px; 
 }
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
@@ -180,34 +218,11 @@ margin-bottom: -15px;
 
 .sem-i-anuncios>div { 
 background: var(--accau1) !important; 
-} 
-
-.sem-i-d>div:nth-of-type(1)>b:before {content:"Hotel Never-was";} 
-.sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
-.sem-i-d>div:nth-of-type(2)>span:before {content:"¿...?";} 
-
-.sem-i-d>div:nth-of-type(2)>i:before {
-    content: "\f273";
-    font-family: 'FontAwesome' !important;
-}
-
-.sem-header { 
-background-image: url(https://i.postimg.cc/GpKxGYHD/Header-NW.png); 
-} 
-
-body, body.night { 
-margin-top: 0 !important; 
-background: url(https://i.postimg.cc/QMmJ15HT/Fondo-NW.png), var(--bckg-1); 
-background-attachment: fixed; 
-background-position: center; 
-background-size: cover; 
-min-width: 1200px; 
-} 
+}  
 
 body.night { 
     background-blend-mode: soft-light;
 }
-
 
 .semp-r-c-t-b { 
 background: var(--grd); 
@@ -264,12 +279,6 @@ font-style: italic;
     background: var(--acc-1);
 }
 
-.semp-r-c-t-datos a[href="/u1247"]:before, 
-.atara-name a[href="/u9"] span strong:before {content:"Nombre Haru"} 
-
-.semp-r-c-t-datos a[href="/u1246"]:before, 
-.atara-name a[href="/u8"] span strong:before {content:"Nombre Wuxian"} 
-
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 
 .semp-r-c-t-datos a:after { 
@@ -285,12 +294,6 @@ line-height: 28px;
 .semp-r-c-t-n>div>span { 
 display: none; 
 } 
-
-.semp-r-c-t-datos a[href="/u1247"]:after,
-.pj-haru-stormgaard .atara-rango:before {content: "Rango H";} 
-
-.semp-r-c-t-datos a[href="/u1246"]:after,
-.pj-cheng-wuxian .atara-rango:before {content: "Rango X";} 
 
 /*GRAFICOS*/ 
 /*Avatares*/ 

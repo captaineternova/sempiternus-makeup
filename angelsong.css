@@ -150,7 +150,16 @@ body {
 --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --acento-base:var(--accau1);
+--header-img: url(https://i.postimg.cc/GmGF5Sfd/ASHed.png);
 } 
+
+.atara-header #site-title:before {
+    content: "Asahikawa, Japón";
+}
+
+.atara-header #site-title:after {
+    content: "Angel's song";
+}
 
 .semp-tablon, #wrap, .sem-i-d, a#fa_notifications { 
 --acc-1: var(--accau1); 
@@ -262,8 +271,11 @@ font-style: italic;
     background: var(--acc-1);
 }
 
-.semp-r-c-t-datos a[href="/u1057"]:before {content:"Sael"} 
-.semp-r-c-t-datos a[href="/u1020"]:before {content:"Yuki"} 
+.semp-r-c-t-datos a[href="/u1057"]:before,
+.atara-name a[href="/u7"] span strong:before {content:"Sael"} 
+
+.semp-r-c-t-datos a[href="/u1020"]:before,
+.atara-name a[href="/u6"] span strong:before {content:"Yuki"} 
 
 .semp-r-c-t-datos a:after, .semp-r-c-t-datos a:before { font-family: var(--fnt-text); } 
 
@@ -281,8 +293,10 @@ line-height: 28px;
 display: none; 
 } 
 
-.semp-r-c-t-datos a[href="/u1057"]:after {content: "Ángel Guardian";} 
-.semp-r-c-t-datos a[href="/u1020"]:after {content: "Guardián del Templo";} 
+.semp-r-c-t-datos a[href="/u1057"]:after,
+.pj-yoonie-fuyuhara .atara-rango:before {content: "Ángel Guardian";} 
+.semp-r-c-t-datos a[href="/u1020"]:after,
+.pj-yuki-fuyuhara .atara-rango:before {content: "Guardián del Templo";} 
 
 .sami .semp-r-c-t-b { 
 --grd: linear-gradient(to left, var(--accau2), var(--accau1)); 
@@ -317,19 +331,23 @@ color: var(--acento) !important;
 
 /*GRAFICOS*/ 
 /*Avatares*/ 
-av>a[href="/u1057"] img { 
+av>a[href="/u1057"] img,
+.pj-yoonie-fuyuhara .atara-avatar img { 
 content: url(https://i.postimg.cc/9fy813Kb/ASAngel.png); 
 } 
 
-av>a[href="/u1020"] img { 
+av>a[href="/u1020"] img,
+.pj-yuki-fuyuhara .atara-avatar img { 
 content: url(https://i.postimg.cc/FK0WGt8Z/ASHuman.png); 
 } 
 
 /*Miniaturas*/ 
-.celebridades .semp-r-c-t-icon img { 
+.celebridades .semp-r-c-t-icon img,
+.pj-yoonie-fuyuhara .atara-content img { 
 content: url(https://i.postimg.cc/vmVWBh8R/Mini_AUAngel.png); 
 } 
 
-.sami .semp-r-c-t-icon img { 
+.sami .semp-r-c-t-icon img,
+.pj-yuki-fuyuhara .atara-content img { 
 content: url(https://i.postimg.cc/R0BqHxkv/Mini-Y1.png); 
 } 

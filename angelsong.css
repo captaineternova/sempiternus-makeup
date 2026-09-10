@@ -175,6 +175,7 @@ body {
 --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --acento-base:var(--accau1);
+--acento-secu:var(--accau2);
 --header-img: url(https://i.postimg.cc/GmGF5Sfd/ASHed.png);
 } 
 

@@ -295,6 +295,10 @@ line-height: 28px;
 display: none; 
 } 
 
+.forum-universos-alternativos .navbar {
+    margin-top: -195px;
+}
+
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u1246"] img,

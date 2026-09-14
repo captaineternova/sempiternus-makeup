@@ -12,14 +12,14 @@
     content: "Blood Echoes";
 }
 
-/*nombres*/
+/*Nombres*/
 .semp-r-c-t-datos a[href="/u851"]:before, 
 .pj-hyun-dahl .atara-name a:before {content:"Hyndriel"} 
 
 .semp-r-c-t-datos a[href="/u835"]:before, 
 .pj-richard-lawrence .atara-name a:before {content:"Richard Lawrence"} 
 
-/*rangos*/
+/*Rangos*/
 .semp-r-c-t-datos a[href="/u851"]:after,
 .pj-hyun-dahl .atara-rango:before {content: "Vampiro";} 
 
@@ -216,8 +216,8 @@ content: url(https://i.postimg.cc/wBpLkxTg/Mini-RL.png);
 content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png); 
 } 
 
-/*Flashbacks*/ 
-
+/*Flashbacks - MIN BAEK HO*/ 
+.pj-calico .atara-avatar img,
 #p54937 av>a[href="/u835"] img,
 #p56034 av>a[href="/u835"] img,
 #p59312 av>a[href="/u835"] img,
@@ -229,6 +229,7 @@ content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png);
 content: url(https://i.postimg.cc/X72v0XdX/9Nn-W4KK.png); 
 } 
 
+.pj-calico .atara-content img,
 #p54937 .semp-r-c-t-icon img,
 #p56034 .semp-r-c-t-icon img,
 #p59312 .semp-r-c-t-icon img,
@@ -240,6 +241,7 @@ content: url(https://i.postimg.cc/X72v0XdX/9Nn-W4KK.png);
 content: url(https://i.postimg.cc/d0Yr9Qtq/Mini-BH.png); 
 } 
 
+.pj-calico .atara-name a:before,
 #p54937 .semp-r-c-t-datos a[href="/u835"]:before,
 #p56034 .semp-r-c-t-datos a[href="/u835"]:before,
 #p59312 .semp-r-c-t-datos a[href="/u835"]:before,
@@ -251,6 +253,7 @@ content: url(https://i.postimg.cc/d0Yr9Qtq/Mini-BH.png);
 content:"Min Baek Ho" 
 } 
 
+.pj-calico .atara-rango:before,
 #p54937 .semp-r-c-t-datos a[href="/u835"]:after,
 #p56034 .semp-r-c-t-datos a[href="/u835"]:after,
 #p59312 .semp-r-c-t-datos a[href="/u835"]:after,

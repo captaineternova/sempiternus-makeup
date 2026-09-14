@@ -325,6 +325,10 @@ display: none;
     margin-top: -5px;
 }
 
+.pj-yoonie-fuyuhara .atara-rango:before {
+    margin-top: -32px;
+}
+
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u835"] img,

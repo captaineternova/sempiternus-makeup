@@ -203,10 +203,6 @@ body {
     --header-img: url(https://i.postimg.cc/sDfdx8Sb/So-AHed.png);
 } 
 
-.atara-name {
-    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
-}
-
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
 
 .sem-i-d>div:nth-of-type(2)>i:before { 
@@ -226,6 +222,10 @@ background-position: center;
 background-size: cover; 
 min-width: 1200px; 
 } 
+
+.atara-name {
+    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+}
 
 body.night { 
     background-blend-mode: soft-light;

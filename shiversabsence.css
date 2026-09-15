@@ -200,9 +200,12 @@ body {
     --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
     --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
     --acento-base:var(--accau1);
-    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2)) !important;
     --header-img: url(https://i.postimg.cc/sDfdx8Sb/So-AHed.png);
 } 
+
+.atara-name {
+    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+}
 
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
 
@@ -322,7 +325,9 @@ line-height: 28px;
 display: none; 
 } 
 
-.pj-richard-lawrence .atara-name a:before {
+.pj-richard-lawrence .atara-name a:before, 
+.pj-yuki-fuyuhara .atara-name a:before,
+.pj-cheng-wuxian .atara-name a:before {
     margin-top: -5px;
 }
 

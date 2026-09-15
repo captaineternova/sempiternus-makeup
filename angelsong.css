@@ -207,7 +207,7 @@ content: "\f2dc" !important;
 } 
 
 .atara-name {
-    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+    --gradiente-pj: linear-gradient(to right, var(--accau1), var(--accau2));
 }
 
 .semp-tablon, #wrap, .sem-i-d, a#fa_notifications { 

@@ -197,6 +197,10 @@ background-size: cover;
 min-width: 1200px; 
 }
 
+.atara-name {
+    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+}
+
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
 --acc-1: var(--accau1); 
 } 

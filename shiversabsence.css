@@ -224,7 +224,7 @@ min-width: 1200px;
 } 
 
 .atara-name {
-    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+    --gradiente-pj: linear-gradient(to right, var(--accau1), var(--accau2));
 }
 
 body.night { 

@@ -75,10 +75,6 @@ body {
 --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
 --acento-base:var(--accau1);
 --header-img: url(https://i.postimg.cc/Twk7KNMF/Blood-Echoes.png);
-} 
-
-.atara-name {
-    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
 }
 
 eternova sprd:before {content:"—˖⁺‧₊☽◯☾₊‧⁺˖—" !important;color: var(--accau1) !important;}
@@ -104,6 +100,10 @@ background-position: center;
 background-size: cover; 
 min-width: 1200px; 
 } 
+
+.atara-name {
+    --gradiente-pj: linear-gradient(to left, var(--accau1), var(--accau2));
+}
 
 a#fa_notifications, .semp-tablon, #wrap, .sem-i-d { 
 --acc-1: var(--accau1); 

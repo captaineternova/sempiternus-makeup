@@ -325,14 +325,16 @@ line-height: 28px;
 display: none; 
 } 
 
-.pj-richard-lawrence .atara-name a:before, 
-.pj-yuki-fuyuhara .atara-name a:before,
-.pj-cheng-wuxian .atara-name a:before {
+.pj-richard-lawrence .atara-name a:before {
     margin-top: -5px;
 }
 
 .pj-yoonie-fuyuhara .atara-rango:before {
     margin-top: -32px;
+}
+
+.pj-yuki-fuyuhara .atara-rango {
+    margin-top:-16px;
 }
 
 /*GRAFICOS*/ 

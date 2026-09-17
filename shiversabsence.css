@@ -337,6 +337,14 @@ display: none;
     margin-top:-18px;
 }
 
+.pj-haru-stormgaard .atara-rango {
+    margin-top: 15px;
+}
+
+.pj-cheng-wuxian .atara-name a:before {
+    margin-top: 5px;
+}
+
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u835"] img,

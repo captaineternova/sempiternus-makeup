@@ -329,6 +329,10 @@ display: none;
     margin-top: -195px;
 }
 
+.forum-universos-alternativos .atara-header:before {
+    height: 372px;
+}
+
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u1246"] img,

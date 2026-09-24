@@ -191,17 +191,31 @@ a.credito:hover {
     color: var(--accau2) !important;
 }
 
+#flashback > div > div i {
+    color:var(--accau5);
+}
+
+#flashback > div > div strong {
+    color:var(--accau1) !important;
+}
+
 /*EDICIÓN AMBIENTAL*/
 body { 
     --accau1:#7DAE9B; 
     --accau2:#4D919F; 
     --accau3:var(--color);
     --accau4:var(--cicon);
+    --accau5:#c4b08a;
     --grd: linear-gradient(to left, var(--accau1), var(--accau2)); 
     --grd-2: linear-gradient(to left, var(--accau1), var(--accau2)); 
     --acento-base:var(--accau1);
     --header-img: url(https://i.postimg.cc/sDfdx8Sb/So-AHed.png);
 } 
+
+#flashback {
+    --acentob: var(--accau1);
+    --acentoa: var(--accau5);
+}
 
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}
 

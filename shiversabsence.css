@@ -213,8 +213,8 @@ body {
 } 
 
 #flashback {
-    --acentob: var(--accau1);
-    --acentoa: var(--accau5);
+    --acentoa: var(--accau1);
+    --acentob: var(--accau5);
 }
 
 eternova sprd:before {content:".˚○ ₊ ⊹ • °.˚ ₊ ○ ⊹ • °" !important;color: var(--accau1) !important;}

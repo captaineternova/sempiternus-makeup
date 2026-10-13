@@ -1,15 +1,15 @@
 /*NEVERWAS*/
 /*PERSONALIZACION DATOS*/
-.sem-i-d>div:nth-of-type(1)>b:before {content:"Hotel Never-was";} 
+.sem-i-d>div:nth-of-type(1)>b:before {content:"Bellhaven";} 
 .sem-i-d>div:nth-of-type(2)>b:before {content:"Story is happening in";} 
-.sem-i-d>div:nth-of-type(2)>span:before {content:"¿...?";} 
+.sem-i-d>div:nth-of-type(2)>span:before {content:"...";} 
 
 .atara-header #site-title:before {
-    content: "Desconocido, Desconocido";
+    content: "..., Bellhaven";
 }
 
 .atara-header #site-title:after {
-    content: "Never-was";
+    content: "Welcome to Never-was";
 }
 
 /*Nombres*/
@@ -89,7 +89,7 @@ a.credito:hover {
 }
 
 #imglateral {
-    background: url(https://placehold.co/368x575);
+    background: url(https://i.postimg.cc/6q9kjt8H/Nwas1.png);
     height: 575px;
     width: 368px;
 }
@@ -325,33 +325,25 @@ line-height: 28px;
 display: none; 
 } 
 
-.forum-universos-alternativos .navbar {
-    margin-top: -195px;
-}
-
-.forum-universos-alternativos .atara-header:before {
-    height: 372px;
-}
-
 /*GRAFICOS*/ 
 /*Avatares*/ 
 av>a[href="/u1246"] img,
 .pj-cheng-wuxian .atara-avatar img { 
-content: url(https://i.postimg.cc/CLvKVdDc/0YTIe4x.png); 
+content: url(https://i.postimg.cc/HnpqZdr0/Nwas-AVW.png); 
 } 
 
 av>a[href="/u1247"] img,
 .pj-haru-stormgaard .atara-avatar img { 
-content: url(https://i.postimg.cc/5NdwwqVj/Hyumpiro.png); 
+content: url(https://i.postimg.cc/hvSkycXL/Nwas-AVH.png); 
 } 
 
 /*Miniaturas*/ 
 .sanidad .semp-r-c-t-icon img,
 .pj-haru-stormgaard .atara-content img { 
-content: url(https://i.postimg.cc/wBpLkxTg/Mini-RL.png); 
+content: url(https://i.postimg.cc/HnpqZdr5/Nwas-Min-H.png); 
 } 
 
 .empresarios .semp-r-c-t-icon img,
 .pj-cheng-wuxian .atara-content img { 
-content: url(https://i.postimg.cc/05dBKNTH/Hyumpiro-Mini.png); 
+content: url(https://i.postimg.cc/90W68CDZ/Nwas-Min-W.png); 
 } 

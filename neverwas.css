@@ -185,7 +185,9 @@ a.credito:hover {
     overflow: auto;
 }
 
-
+.poste7-ht strong, .poste7-ht b, .poste7-ht i, .poste7-ht srike, .poste7-ht u {
+    color: var(--acento) !important;
+}
 
 /*EDICIÓN AMBIENTAL*/ 
 body { 

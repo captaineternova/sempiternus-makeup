@@ -102,8 +102,8 @@ a.credito:hover {
 .imagencostado:before {
     content: "";
     background: var(--acc-1);
-    width: 95%;
-    height: 38%;
+    width: 368px;
+    height: 380px;
     display: block;
     mix-blend-mode: multiply;
     position: absolute;
@@ -123,15 +123,6 @@ a.credito:hover {
     width: 17rem;
     margin-left: 24px;
     line-height: 21px;
-}
-
-#imglateral p {
-    background: transparent;
-    text-transform: none;
-    top: 485px;
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: bold;
 }
 
 .imagencostado p:first-letter, .imagencostado p i, #imglateral b { color: var(--accau1);font-weight:bolder}
@@ -188,6 +179,13 @@ a.credito:hover {
     float: left;
     margin: 10px 25px 0 0;
 }
+
+.neverwas .poste7-tx {
+    height: 122px;
+    overflow: auto;
+}
+
+
 
 /*EDICIÓN AMBIENTAL*/ 
 body { 

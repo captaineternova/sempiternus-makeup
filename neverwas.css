@@ -69,10 +69,6 @@ a.credito:hover {
     opacity: 1;
 }
 
-.semp-r-c-t-b>div>span {
-    visibility: hidden;
-}
-
 .neverwas {
     display: flex;
     width: 100%;

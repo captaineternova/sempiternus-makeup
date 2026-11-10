@@ -61,10 +61,6 @@ display: none;
 #hyn strong {color:#7c3535;} 
 .content.clearfix div strong i {color: var(--accau1);} 
 
-.semp-r-c-t-b>div>span {
-    visibility: hidden;
-}
-
 /*EDICIÓN AMBIENTAL*/ 
 body { 
 --accau1:#571414; 

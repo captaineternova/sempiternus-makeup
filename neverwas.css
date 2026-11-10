@@ -185,6 +185,8 @@ a.credito:hover {
     color: var(--acento) !important;
 }
 
+.signature_div {visibility: hidden;height: 0px;} 
+
 /*EDICIÓN AMBIENTAL*/ 
 body { 
 --accau1:#a45e43; 

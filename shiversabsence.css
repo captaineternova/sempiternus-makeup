@@ -196,8 +196,7 @@ a.credito:hover {
 }
 
 .stop4-text i {
-    font-style: italic;
-    color: var(--accau5);
+    color: var(--accau5) !important;
 }
 
 .stop4-body {
@@ -205,7 +204,7 @@ a.credito:hover {
 }
 
 .stop4-text {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 
 /*EDICIÓN AMBIENTAL*/

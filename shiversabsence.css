@@ -195,6 +195,19 @@ a.credito:hover {
     color:var(--accau1) !important;
 }
 
+.stop4-text i {
+    font-style: italic;
+    color: var(--accau5);
+}
+
+.stop4-body {
+    transform: rotateY(0deg) !important;
+}
+
+.stop4-text {
+    font-family: 'Poppins';
+}
+
 /*EDICIÓN AMBIENTAL*/
 body { 
     --accau1:#7DAE9B; 
